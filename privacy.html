@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+
+
+
+    
+
+
+body{
+  margin:0;
+    padding:0;  
+}
+ header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+  }
+
+.back{
+  margin-top: 0px;
+    height:400px;
+    background-color: #070ab8;
+}
+.x{
+    color: white;
+    text-align: center;
+    padding: 150px;
+    font-size: 50px;
+}
+.x p{
+    font-size: 15px;
+}
+.h{
+    height: 2050px;
+    
+    background-color: rgba(255, 255, 255, 0.644);
+    margin: 50px 150px;
+    border: rgb(202, 199, 199) solid 2px;
+    border-radius: 10px
+
+
+}
+
+.d{padding-left: 90px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.h p{
+    padding-left: 90px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+.i{
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.li{
+    
+    font-size: 15px;
+    margin-top: 10px;
+}
+ul{
+    padding-left: 120px;
+}
+.lis{
+    
+    font-size: 15px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.z{
+    color: lightblue;
+}
+.f{
+            padding: 0;
+            margin: 0;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height: 40px;
+                padding: 20px;
+                font-weight: bold;
+               
+                
+            }
+           
+            .r{
+                padding-left: 400px;
+                padding-top: 10px;
+                font-weight: bold;
+
+            }
+            a{
+                padding: 10px;
+            }
+            .m{
+            padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;
+}
+             .f img{
+                width: 92px;
+                height: auto;
+                translate: -9px -32px;
+            }
+            footer{
+            
+            background-color:white;
+           
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color:red
+        }
+        .g{
+            
+            display: flex;
+            flex-direction: column;
+            translate: 300px 10px;
+            width:800px;
+            height: 100%;
+            
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .g div{
+            padding: 10px;
+        }
+        a{
+            padding: 10px;
+        }
+        
+        
+        .fo{
+          
+            width: 30px;
+            height: auto;
+        }
+        .i img{
+          height: 15px;
+          width:auto;
+          margin-right: 10px;
+        }
+        .h .d img{
+          height: 15px;
+          width:auto;
+          margin-right: 10px;
+        }
+
+        .im{
+    width: 1000px;
+    height: 400px;
+    
+        }
+        
+        
+        
+        @media(max-width: 768px){
+
+    .f{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .m{
+        padding: 0;
+    }
+
+    .r{
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .r a{
+        padding: 8px;
+        display: inline-block;
+    }
+
+    .x{
+        padding: 120px 20px;
+        font-size: 35px;
+    }
+
+    .h{
+        margin: 20px;
+        padding-bottom: 30px;
+    }
+
+    .d, .i{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    .h p{
+        padding: 0 20px;
+    }
+
+    ul{
+        padding-left: 40px;
+    }
+
+    .g{
+        translate: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 480px){
+
+    .x{
+        font-size: 28px;
+        padding: 100px 10px;
+    }
+
+    .back{
+        height: 320px;
+    }
+
+    .h{
+        margin: 10px;
+        padding-bottom: 20px;
+    }
+
+    .d, .i{
+        font-size: 22px;
+        padding-left: 15px;
+    }
+
+    .h p{
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    ul{
+        padding-left: 30px;
+    }
+
+    .li{
+        font-size: 14px;
+    }
+
+    .r a{
+        display: block;
+        padding: 6px;
+    }
+
+    footer{
+        padding: 20px 0;
+    }
+
+    .g{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .g div{
+        padding: 5px;
+    }
+
+    .fo{
+        width: 25px;
+    }
+}
+
+        .imm{
+  width: 90px;
+  translate: 0 -30px;
+}
+.logo{
+          width: 200px;
+          translate: 0px 60px;
+        }
+
+</style>
+<body> 
+  <header>
+           <div class="f">
+          <div ><a href="home.html"><img class="im" src="logo.png"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+    <div class="back">
+        <h1 class="x">Privacy Policy <p>We'er committed to protecting your privacy and ensuring transparency about how we  <br>collect,use, and safeguard your personal information on our platform.</p> <p class="z">Last updated:August 1,2025</p></h1>
+
+        
+      
+    </div>
+    <div class="h"><h1 class="d"><img src="images.png" alt="">Introduction</h1><p>At Laptops and Phones store, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or make a purchase.
+        <br><br>By using our services, you agree to the terms outlined in this policy. We take all necessary measures to ensure the security and confidentiality of your information. Your trust is important to us, and we strive to keep your online experience safe and transparent.</p>
+    <h1 class="i"><img src="images.png" alt="">Data Collection </h1><p>We collect information you provide directly to us, such as when you:</p>
+<ul><li class="li">Create an account or profile.</li>
+    <li class="li">Browse or purchase laptops, phones, or related accessories.</li>
+    <li class="li">Contact us for support, inquiries, or technical assistance.</li>
+    <li class="li">Subscribe to our newsletters or promotional offers.</li>
+    <li class="li">Request product recommendations or warranty services.</li></ul>
+   
+<h1 class="i"><img src="images.png" alt="">Use of Data</h1>
+<p>We use the information we collect to:</p>
+<ul><li class="li">Process and complete your purchases of laptops, phones, and accessories.</li>
+    <li class="li">Provide customer support, technical assistance, and warranty services.</li>
+    <li class="li">Improve website functionality, user experience, and product recommendations.</li>
+    <li class="li">Send updates, promotions, and special offers (only if you choose to receive them).</li>
+    <li class="li">Detect and prevent fraud, unauthorized transactions, or security issues</li>
+
+
+</ul>
+<h1 class="i"><img src="images.png" alt="">Cookies and Tracking</h1>
+<p>We use cookies and tracking technologies to: </p>
+<ul><li class="li">Improve browsing experience and remember your preferences.</li>
+    <li class="li">Analyze website traffic and performance.</li>
+    <li class="li">Display personalized product recommendations and promotions.</li>
+    <li class="li">Enhance security and detect fraudulent or suspicious activity.</li>
+    <li class="li">Support essential website functions such as login and shopping cart.</li>
+  
+</ul>
+<h1 class="i"><img src="images.png" alt="">Third-party Services</h1>
+<p>We may share your information with trusted third-party providers to:</p>
+<ul><li class="li">Process secure payments and manage transactions.</li>
+    <li class="li">Handle product delivery and shipment services.</li>
+    <li class="li">provide analytics to help us improve website performance and user experience.</li>
+    <li class="li">Display targeted advertisements and marketing content.</li>
+    <li class="li">Offer technical support or maintenance for our website.</li>
+  
+</ul>
+<h1 class="i"><img src="images.png" alt="">Your Rights</h1>
+<p>You have the right to:</p>
+<ul><li class="li">Access, review, or request a copy of the personal data we hold about you.</li>
+    <li class="li">Correct or update any inaccurate or incomplete information.</li>
+    <li class="li">Request the deletion of your data where legally applicable.</li>
+    <li class="li">Withdraw consent for marketing communications at any time.</li>
+    <li class="li">Object to or restrict the processing of your information in certain circumstances.</li>
+
+</ul>
+<h1 class="i"><img src="images.png" alt="">Contact Us</h1>
+<p>If you have any questions or concerns regarding this Privacy Policy or your personal data, you can contact us through:
+</p>
+<ul><li class="li">Email: SadekAli@gmail.com</li>
+    <li class="li">Phone: 78854331</li>
+    <li class="li">Website Contact Form: Available on our "Contact" page.</li>
+    <li class="li">Support Hours:  Monday to Saturday, 9:00 AM – 6:00 PM.</li>
+    <li class="li">We aim to respond to all inquiries as quickly as possible.</li>
+  
+</ul>
+
+</div>
+<footer>
+            <div class="g">
+                  <div ><a href="home.html"><img class="logo" src="logo.png"></a></div>
+                <div><h1>MAstore.com</h1></div>
+               
+                <div class="fa"><a>Home</a>
+                 <a>Gallery</a>
+               <a>sign in</a>
+                 <a>Privacy Policy</a>
+                 <a>Term if services</a>
+                </div>
+                <div>
+                    <a>survey</a>
+                   <a>testimonials</a>
+                  <a>about us</a>
+                  <a> contact us</a></div>
+                  
+                <div class="fol">
+                    <img class="fo"   src="phone3.png" alt="phone">
+                    <img  class="fo" src="email.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+</body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+        margin: 0;
+    padding-top: 90px;  
+    background-color: black;
+    
+    }
+   header{
+    
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+   }
+   
+  
+    
+
+    .f{
+        
+       padding: 0%;
+       margin: 0;
+        display: flex;
+        flex-direction: row;
+       
+        height: 40px;
+        padding: 20px;
+        font-weight: bold;
+       
+    }
+
+    .r{
+        padding-left: 400px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+
+    a{
+        padding: 10px;
+    }
+
+    .m{
+        
+        padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;
+    }
+
+    .g img{
+        width: 250px;
+        height: auto;
+        transition: transform 0.4s ease,filter 0.4s ease;
+    }
+    .g:hover img{
+        transform: scale(1);
+        filter: blur(3px);
+       
+    }
+    
+    .g img:hover{
+        filter: blur(0);
+        transform: scale(1.08);
+    }
+    .i{
+        width: 40px;
+        height: auto;
+    }
+
+    body{
+        background-color: black;
+    }
+
+    h1, h2{
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+    }
+   .g{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    width: auto;
+    translate: 20px ;
+    width: 1300px;
+    
+    
+    gap: 50px;
+    
+   }
+     a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+            footer{    
+            
+            margin-top: 40px;
+            
+            background-color:white ;
+            color: black;
+        }
+        
+        .grid{
+            
+            display: flex;
+            flex-direction: column;
+            translate: 350px 10px;
+            width:800px;
+            
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .grid div{
+            padding: 10px;
+        }
+        .fan a{
+            padding: 10px;
+        }
+        
+        
+    
+          .fo img{
+            width: 30px;
+            height: auto;
+            animation-play-state: paused;
+        }
+        .grid h1{
+            color: black;
+        }
+          
+          
+         
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 120px;
+    overflow-x: hidden;
+  }
+
+  
+  .f {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .m {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+
+  .r {
+    padding-left: 0;
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .r a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+ 
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+
+  .g {
+    grid-template-columns: 1fr;   
+    width: 100%;
+    translate: 0;
+    padding: 0 10px;
+    gap: 30px;
+  }
+
+ 
+  .g > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;   
+  }
+
+  .g img {
+    width: 95%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    margin: 0 auto;
+  }
+
+ 
+  .g:hover img {
+    filter: none;
+    transform: none;
+  }
+
+  
+  .g img:hover {
+    transform: scale(1.04);
+    filter: none;
+  }
+
+  
+  footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .grid {
+    translate: 0 !important;
+    width: 100%;
+  }
+
+  .fan a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .grid h1 {
+    font-size: 22px;
+  }
+
+  .fo img {
+    width: 25px;
+  }
+}
+.imm{
+  width: 90px;
+  translate: 0 -30px;
+}
+.logo{
+          width: 200px;
+          translate: 0px 80px;
+        }
+
+</style>
+</head>
+<body>
+
+<header>
+           <div class="f">
+          <div ><a href="home.html"><img class="imm" src="logo.png"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+
+<h1>Our Products Gallery</h1>
+<h2>Discover our latest phones, laptops, and accessories.</h2>
+<div class="g">
+    <div>
+        <img src="iphone-17-pro.webp" alt="iphone" >
+         <img src="S24.webp" alt="iphone" >
+          <img src="huawei-p60.jpg" alt="iphone" >
+          <img src="Gemini_Generated_Image_23eh4p23eh4p23eh.png" alt="iphone" >
+    
+    </div>
+    <div>
+        <img src="asus.png" alt="laptop">
+         <img src="macbookp.avif" alt="laptop">
+          <img src="victus-Laptop.png" alt="laptop">
+           <img src="lenovo.avif" alt="laptop">
+
+    </div>
+    <div>
+     <img src="airpods.png" alt="airpods">
+      <img src="galaxy.jpg" alt="airpods">
+       <img src="headphonesss.jpg" alt="headphones">
+        
+
+
+
+    </div>
+    <div>
+      <img src="mousee6.png" alt="mouse">
+      <img src="mousee.jpeg" alt="mouse">
+      <img src="mouse6.png" alt="mouse">
+      <img src="mouse7.png" alt="mouse">
+
+
+
+    </div>
+    <div>
+        <img src="keyboard6.png" alt="keyboard">
+        <img src="keyboard5.png" alt="keyboard">
+        <img src="keyboard 7.png" alt="keyboard">
+        <img src="keyboardd.jpg" alt="keyboard">
+    </div>
+</div>
+<footer>
+            <div class="grid">
+               <div><a href="home.html"><img class="logo" src="logo.png" ></a></div>
+                <div><a href="home.html"><h1>MAstore.com</h1></a></div>
+               
+                <div class="fan">  <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+                </div>
+                <div class="fan">
+                     <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+                   </div>
+                  
+                <div class="fo">
+                    <img   src="phone3.png" alt="phone">
+                    <img src="emaill.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+
+</body>
+</html>

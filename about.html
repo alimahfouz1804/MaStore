@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          
+            body{
+                 margin: 0;
+                padding: 0;
+                background-color: black;
+                color: white;
+                font-weight: bold;
+                margin-top: 100px;
+            }
+             header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    z-index: 30;
+  }
+
+            .g{
+                display: grid;
+                grid-template-columns: 100px 400px;
+                width: 500px;
+                gap: 50px;
+            }
+            .f{
+                
+                display: grid;
+                grid-template-columns: 500px 100px 100px;
+                padding-left: 200px;
+                margin-top: 50px;
+                gap: 50px;
+            }
+            img{
+                width: 200px;
+                height: auto;
+                
+            }
+            .u{
+                text-align: center;
+            }
+            .ima{
+                margin-top: 15px;
+                margin-left: 200px;
+                
+ 
+
+            }
+            .ima img{
+                padding: 40px;
+            }
+            .im{
+                margin-left: 40px;
+            }
+            .im img{
+                padding: 40px;
+            }
+            .c{
+                font-weight: bold;
+            }
+              .fa{
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height: 40px;
+                padding: 20px;
+                font-weight: bold;
+                color: black;
+                
+            }
+           
+            .r{
+                padding-left: 440px;
+                padding-top: 10px;
+            }
+            .r a{
+                padding: 10px;
+            }
+            .m{
+            padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;}
+             .imm{
+                width: 40px;
+                height: auto;
+                animation-play-state: paused;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+            img {
+    width: 200px;
+    animation: move 4s infinite ease-in-out alternate;
+}
+
+@keyframes move {
+    from { transform: translateX(0); }
+    to   { transform: translateX(30px); }
+}
+
+footer{    
+            
+            margin-top: 40px;
+            
+            background-color:white ;
+            color: black;
+        }
+        
+        .grid{
+            
+            display: flex;
+            flex-direction: column;
+            translate: 350px 10px;
+            width:800px;
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .grid div{
+            padding: 10px;
+        }
+        .fan a{
+            padding: 10px;
+        }
+        
+        
+    
+          .fo img{
+            width: 30px;
+            height: auto;
+            animation-play-state: paused;
+        }
+       
+  
+@media (max-width: 1024px) {
+
+    .f {
+        grid-template-columns: 1fr;
+        padding-left: 50px;
+        gap: 30px;
+    }
+
+    .g {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .im img, .ima img {
+        width: 150px;
+        padding: 20px;
+    }
+
+    .r {
+        padding-left: 150px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    header .fa {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .r {
+        padding-left: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   .m{
+    padding-left: 22px;
+   }
+    .r a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .f {
+        padding-left: 0;
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .im img, .ima img {
+        width: 100px;
+    }
+
+    .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .r a {
+        font-size: 12px;
+        padding: 5px;
+    }
+   
+
+    .g {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .im img, .ima img {
+        width: 110px;
+        padding: 10px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+
+    footer h1 {
+        font-size: 20px;
+    }
+}
+    .imm{
+  width: 90px;
+  translate: 0 -35px;
+}
+.logo{
+          width: 200px;
+          translate: 0px 60px;
+          animation-play-state: paused;
+        }
+        </style>
+       
+    </head>
+    <body>
+        <header>
+           <div class="fa">
+          <div ><a href="home.html"><img class="imm" src="logo.png"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+        
+<section class="about">
+     <div class="n">
+        <div class="u">
+        <h1>MA Store</h1>
+        <p>More than 20+ years of experience</p>
+        </div>
+        </div>
+    <div class="f"> 
+     <div class="g">
+        <div class="c">About Us</div>
+        <div>At MA Store, we are passionate about technology and dedicated to providing high-quality phones, laptops, and accessories for everyone. Since our launch, we have focused on offering reliable products, exceptional customer service, and affordable prices. Whether you're looking for the latest smartphone, a powerful laptop for work or gaming, or expert advice, our team is here to help you make the right choice.</div>
+        <div class="c">Our mission</div>
+        <div>Our mission is to deliver quality, authenticity, and great value in every product we offer. We work closely with top brands and suppliers to ensure that every device meets the highest standards. Through transparency, professionalism, and continuous improvement, we strive to build long-term relationships with our customers and support them with excellent after-sales service.</div>
+        <div class="c">Our vision</div>
+        <div>Our vision is to become a trusted tech destination where innovation meets accessibility. We aim to create a space where customers can explore the newest devices, discover valuable information, and enjoy a smooth, friendly shopping experience. At MA Store, we believe that technology should simplify life and inspire creativity.</div>
+     </div>
+     
+     
+    
+        <div class="im">
+       <img src="iphone-17-pro.webp" alt="iphone">
+       <img class="b" src="macbookp.avif" alt="macbook">
+        </div>
+        <div class="ima">
+       <img src="keyboardd.jpg" alt="keyboard">
+       <img  class="b" src="mousee.jpeg" alt="mouse">
+       </div>
+       </div>
+      
+     </section> 
+      <footer>
+            <div class="grid">
+                 <div ><a href="home.html"><img class="logo" src="logo.png"></a></div>
+                <div><a href="home.html"><h1>MAstore.com</h1></a></div>
+               
+                <div class="fan">  <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+                </div>
+                <div class="fan">
+                     <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+                   </div>
+                  
+                <div class="fo">
+                    <img   src="phone3.png" alt="phone">
+                    <img src="emaill.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+      
+    </body>
+</html>

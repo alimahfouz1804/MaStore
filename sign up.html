@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        body{
+            font-weight: bold;
+            background-color: lightseagreen;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         .fa{
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height: 40px;
+                padding: 20px;
+                font-weight: bold;
+                color: black;
+                
+            }
+           
+            .r{
+                padding-left: 400px;
+                padding-top: 10px;
+            }
+            .r a{
+                padding: 10px;
+            }
+            .m{padding-left: 150px;
+            padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;}
+             .imm{
+                width: 40px;
+                height: auto;
+                animation-play-state: paused;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+        .g{
+            display: grid;
+          gap: 10px;
+          width: 1000px;
+          translate: 400px 40px;
+            
+        }
+        .grid3,.grid1{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+          
+            
+        }
+        .grid1{
+            gap: 300px;
+            width: 500px;
+        }
+        select{
+            width: 180px;
+            height: 25px;
+        }
+        input{
+            height: 30px;
+        }
+        .l{
+            width: 30px;
+        }
+        .c{
+            width: 150px;
+            background-color: lightseagreen;
+            color: black;
+            height: 50px;
+            font-weight: bold;
+        }
+        h1{
+            margin-top: 20px;
+            font-size: 50px;
+            text-align: center;
+        }
+            
+    footer{    
+            
+            margin-top: 80px;
+            
+            padding-bottom: 50px;
+            
+            background-color:white ;
+            color: black;
+        }
+        
+        .grid{
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            translate: 350px 10px;
+            width:800px;
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .grid div{
+            padding: 10px;
+        }
+        .fan a{
+            padding: 10px;
+        }
+        
+        
+    
+          .fo img{
+            width: 30px;
+            height: auto;
+            animation-play-state: paused;
+        }
+        a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+          @media (max-width: 1024px) {
+
+    .r {
+        padding-left: 200px;
+    }
+
+    .g {
+        width: 90%;
+        translate: 0;
+        margin: auto;
+        gap: 40px;
+    }
+
+    .grid3,
+    .grid1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    input, select {
+        width: 90%;
+    }
+
+    .c {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+   
+    .fa {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .m {
+        padding-left: 0;
+    }
+
+    .r {
+        padding-left: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .r a {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+ 
+    .g {
+        width: 95%;
+        translate: 0;
+        padding: 10px;
+        gap: 30px;
+    }
+
+    .grid3,
+    .grid1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input, select {
+        width: 95%;
+    }
+
+    .c {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .g {
+        width: 100%;
+        translate: 0;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .grid3,
+    .grid1 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    input, select {
+        width: 100%;
+        height: 35px;
+    }
+
+    .c {
+        width: 100%;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .r a {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    footer h1 {
+        font-size: 18px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+      </style>
+    </head>
+    <body> 
+         <header>
+           <div class="fa">
+          <div ><a href="home.html"><img class="imm" src="macbook.webp"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+        <h1>Create an Account</h1>
+        <div class="g">
+           <h2>Full name</h2> 
+            <div class="grid3">
+                
+                <div>
+                    <input type="name" size="20">
+                   <p>First Name</p> 
+                </div>
+                <div>
+                    <input type="name" size="20">
+                   <p>Middle Name</p> 
+                </div>
+                <div>
+                     <input type="name" size="20">
+                   <p>Last Name</p> 
+                </div>
+                
+            </div>
+            <div>
+                <h2>Email</h2>
+                <input name = "email" type = “email  placeholder=“name@domain.com” size="50">
+                
+            </div>
+            <div>
+                <h2>Birth Date</h2>
+                <div class="grid3">
+                    <div>
+                        <select class="month">
+               <option disabled selected>Select Month</option>
+               <option>January</option>
+               <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+  </select>
+  <p>Month</p>
+
+
+                    </div>
+                    <div>
+                        <select class="day">
+    <option disabled selected>Select Day</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+    <option>13</option>
+    <option>14</option>
+    <option>15</option>
+    <option>16</option>
+    <option>17</option>
+    <option>18</option>
+    <option>19</option>
+    <option>20</option>
+    <option>21</option>
+    <option>22</option>
+    <option>23</option>
+    <option>24</option>
+    <option>25</option>
+    <option>26</option>
+    <option>27</option>
+    <option>28</option>
+    <option>29</option>
+    <option>30</option>
+    <option>31</option>
+  </select>
+  <p>Day</p>
+                    </div>
+               <div>
+                <select class="year">
+    <option disabled selected>Select Year</option>
+
+                    <option>2025</option>
+    <option>2024</option>
+    <option>2023</option>
+    <option>2022</option>
+    <option>2021</option>
+    <option>2020</option>
+    <option>2019</option>
+    <option>2018</option>
+    <option>2017</option>
+    <option>2016</option>
+    <option>2015</option>
+    <option>2014</option>
+    <option>2013</option>
+    <option>2012</option>
+    <option>2011</option>
+    <option>2010</option>
+    <option>2009</option>
+    <option>2008</option>
+    <option>2007</option>
+    <option>2006</option>
+    <option>2005</option>
+    <option>2004</option>
+    <option>2003</option>
+    <option>2002</option>
+    <option>2001</option>
+    <option>2000</option>
+    <option>1999</option>
+    <option>1998</option>
+    <option>1997</option>
+    <option>1996</option>
+    <option>1995</option>
+    <option>1994</option>
+    <option>1993</option>
+    <option>1992</option>
+    <option>1991</option>
+    <option>1990</option>
+    <option>1989</option>
+    <option>1988</option>
+    <option>1987</option>
+    <option>1986</option>
+    <option>1985</option>
+  </select>
+  <p>Year</p>
+
+               </div>
+
+                </div>
+
+            </div>
+             <div>
+                <h2>Preffered Username</h2>
+                 <input type="name" size="20">
+                   
+             </div>
+             <div class="grid1">
+                <div>
+                    <h2>Enter Password</h2>
+                     <input name = "password" type = "password"  size="50">
+                </div>
+                <div>
+                    <h2>Confirm Password</h2>
+                     <input name = "password" type = "password"  size="50">
+                </div>
+                   
+             </div>
+             <div>
+               <h2>Keep Me informed ?</h2>
+               <input class="l" name = "name"  type = "radio" >
+               <input class="l" name = "name"  type = "radio" >
+               
+
+             </div>
+             <div>
+                <h2 ><input class="c"  value="Submit"  type = "submit" ></h2>
+                
+             </div>
+        </div>
+         <footer>
+            <div class="grid">
+                <div><a href="home.html"><h1>MAstore.com</h1></a></div>
+               
+                <div class="fan">  <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+                </div>
+                <div class="fan">
+                     <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+                   </div>
+                  
+                <div class="fo">
+                    <img   src="phone3.png" alt="phone">
+                    <img src="emaill.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+    </body>
+</html>

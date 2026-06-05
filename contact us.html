@@ -1,0 +1,426 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body><style>
+    
+
+
+ body{
+            background-image: url(contback.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-position: center;
+            margin: 0;
+           padding: 0;
+           margin-top: 150px;
+        
+           
+        }
+         header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+  }
+  
+         .fa{
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height: 40px;
+                padding: 20px;
+                font-weight: bold;
+                color: black;
+                
+            }
+           
+            .r{
+                padding-left: 432px;
+                padding-top: 10px;
+            }
+            .r a{
+                padding: 10px;
+            }
+            .m{
+            padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;}
+             .imm{
+                width: 40px;
+                height: auto;
+                animation-play-state: paused;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+          
+       
+           
+
+.i{height: 500px;
+background-color: white;
+display: grid;
+grid-template-columns: auto auto;
+margin-top: 60px;
+margin-bottom: 40px;
+margin-left: 200px;
+margin-right: 200px;
+}
+.d{height: 500px;
+background-color: aliceblue;
+width: 400px;
+} 
+.h{height: 500px;
+width:750px;
+background-color: lightskyblue;
+}
+.d h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.d ul{
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    margin: 40px;
+ 
+}
+.d ul li h6 p{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 20px;
+    font-weight: lighter;
+
+}
+h6{
+    font-size: 18px;
+}
+.h h1{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+label{
+    margin-left: 60px;
+
+}
+
+input{
+    display: block;
+    margin-left: 60px ;
+    margin-top: 15px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   height: 30px;
+   width:270px;
+   background-color: lightskyblue;
+   border-color: black;
+    
+    
+}
+.tex{
+    display: block;
+    margin-left: 60px ;
+    margin-top: 15px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   height: 30px;
+   width:600px;
+   background-color: lightskyblue;
+   border-color: black;
+}
+.t{
+    display: block;
+    margin-left: 70px ;
+    margin-top: 40px;
+   height: 40px;
+   width:580px;
+   background-color: blue;
+   color: white;
+   font-size: 20px;
+   border-radius: 8px;
+   border-bottom: none;
+   
+  
+}
+img{
+    width: 15px;
+    height: 15px;
+   margin-right: 7px;
+   
+}
+ footer{    
+            
+            margin-top: 40px;
+            
+            background-color:white ;
+            color: black;
+        }
+        
+        .grid{
+            
+            display: flex;
+            flex-direction: column;
+            translate: 350px 10px;
+            width:800px;
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .grid div{
+            padding: 10px;
+        }
+        .fan a{
+            padding: 10px;
+        }
+        
+        
+    
+          .fo img{
+            width: 30px;
+            height: auto;
+            animation-play-state: paused;
+        }
+        a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+           .grid .logo{
+            width: 200px;
+            height: auto;
+            }
+            @media (max-width: 1024px) {
+
+    .r {
+        padding-left: 200px;
+    }
+
+    .i {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 20px;
+    }
+
+    .h, .d {
+        width: 100%;
+        height: auto;
+    }
+
+    .tex {
+        width: 80%;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .t {
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+  
+    .fa {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .m {
+        padding-left: 0;
+    }
+
+    .r {
+        padding-left: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .r a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .i {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tex {
+        width: 90%;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    .t {
+        width: 85%;
+        margin-left: 40px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .d h1 {
+        font-size: 30px;
+    }
+
+    .d ul {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .i {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    input, .tex {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .t {
+        width: 90%;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .r a {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    footer h1 {
+        font-size: 18px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+  .imm{
+  width: 90px;
+  translate: 0 -35px;
+}
+.logo{
+          width: 200px;
+          translate: 0px 60px;
+          
+        }
+</style>
+<body>
+      <header>
+           <div class="fa">
+          <div ><a href="home.html"><img class="imm" src="logo.png"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+  
+  <div class="i"><div class="d"><h1>Contact Us</h1><ul>
+    <li><h6><img src="emaillogo.png" alt="">Email <p>sadekali@gmail.com</p></h6></li>
+  <li><h6><img src="phonelogo.png" alt="">Phone <p>78854331</p></h6></li>
+    <li><h6><img src="websitelogo.png" alt="">Website <p>MAstore.com</p></h6></li>
+    <li><h6><img src="locationlogo.png" alt="">Location <p>haret-hriek</p></h6></li>
+  </ul>
+
+
+
+</div><div class="h"><h1>Get in touch.</h1>
+    <label for="">Your Name</label>
+    <input type="text" placeholder="Enter Your Full Name"><br>
+     <label class="label1">Email Address</label>
+    <input  class="tex" placeholder="you.example.com"><br>
+    <label class="label1">Message</label>
+    <input  class="tex" placeholder="Write your message..." type="text-area">
+    <input  class="t" type="submit">
+</div></div>
+<footer>
+            <div class="grid">
+                 <div ><a href="home.html"><img class="logo" src="logo.png"></a></div>
+                <div><a href="home.html"><h1>MAstore.com</h1></a></div>
+               
+                <div class="fan">  <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+                </div>
+                <div class="fan">
+                     <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+                   </div>
+                  
+                <div class="fo">
+                    <img   src="phone3.png" alt="phone">
+                    <img src="emaill.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+  
+ </body>
+ </html>

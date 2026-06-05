@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+  
+     body{
+            background-image: url(Pl.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+           background-position: center;
+            margin-top: 100px;
+        
+           
+        }
+         header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    z-index: 100;
+  }
+
+    
+        .fa{
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                height: 40px;
+                padding: 20px;
+                font-weight: bold;
+                color: black;
+                
+            }
+           
+            .r{
+                padding-left: 440px;
+                padding-top: 10px;
+            }
+            .r a{
+                padding: 10px;
+            }
+            .m{
+            padding-top: 10px;
+        font-size: larger;
+    font-weight: bold;}
+             .imm{
+                width: 40px;
+                height: auto;
+                animation-play-state: paused;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+        .g{
+            display: grid;
+            grid-template-columns: 350px 350px;
+            translate: 300px 100px;
+            width: 700px;
+            color: white;
+            gap: 200px;
+           
+        }
+        h2{
+            font-size: 50px;
+            text-align: center;
+        }
+        .g2{
+           font-size: 100px; 
+           padding-top: 20px;
+        }
+        .i{
+            padding-top: 20px;
+        }
+        input{
+            height: 40px;
+        }
+        .s{
+            background-color: orange;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            color: black;
+            padding-top: 10px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+       .b{
+        font-weight: bold;
+        font-size: 20px;
+       }
+       footer{    
+            
+            margin-top: 150px;
+            padding-bottom: 50px;
+            
+            background-color:white ;
+            color: black;
+        }
+        
+        .grid{
+            
+            display: flex;
+            flex-direction: column;
+            translate: 350px 10px;
+            width:800px;
+            
+          
+            text-align: center;
+            font-weight: bold;
+           
+            
+
+        }
+        .grid div{
+            padding: 10px;
+        }
+        .fan a{
+            padding: 10px;
+        }
+        
+        
+    
+          .fo img{
+            width: 30px;
+            height: auto;
+            animation-play-state: paused;
+        }
+        a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: brown;
+
+            }
+            @media (max-width: 1024px) {
+
+    .r {
+        padding-left: 200px;
+    }
+
+    .g {
+        grid-template-columns: 1fr;
+        translate: 0;
+        width: 90%;
+        margin: auto;
+        gap: 50px;
+    }
+
+    .g2 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .i {
+        text-align: center;
+    }
+
+    input {
+        width: 80%;
+        height: 40px;
+    }
+
+    .s {
+        width: 150px;
+        margin: auto;
+    }
+
+    .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+   
+    .fa {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .m {
+        padding-left: 0;
+    }
+
+    .r {
+        padding-left: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .r a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    
+    .g {
+        width: 95%;
+        gap: 40px;
+    }
+
+    .g2 {
+        font-size: 50px;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .s {
+        width: 180px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1, h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .g2 {
+        font-size: 40px;
+    }
+
+    .g {
+        width: 100%;
+        gap: 20px;
+        translate: 0;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    input {
+        width: 90%;
+        margin: 10px auto;
+        height: 40px;
+    }
+
+    .s {
+        width: 90%;
+        font-size: 20px;
+        padding-top: 10px;
+        margin: 15px auto;
+    }
+
+    .b {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .r a {
+        font-size: 12px;
+    }
+
+    footer h1 {
+        font-size: 18px;
+    }
+
+    footer .grid {
+        translate: 0;
+        width: 100%;
+    }
+}
+.imm{
+  width: 90px;
+  translate: 0 -30px;
+}
+.logo{
+          width: 200px;
+          translate: 0px 60px;
+        }
+   </style>
+  
+    </head>
+
+    <body>
+           <header>
+           <div class="fa">
+          <div ><a href="home.html"><img class="imm" src="logo.png"></a></div>
+          <div class="m"><a href="home.html">MA Store</a></div>
+          <div class="r">
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+            <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+          </div>
+        </div>
+        </header>
+        
+        <div class="g">
+          <div>
+            <h1 class="g2">Welcome Back</h1>
+            <p>We’re happy to have you with us again. Discover our latest phones, laptops, and accessories—all chosen to offer quality, style, and reliability. Take your time, explore what’s new, and enjoy a smooth shopping experience made just for you.</p>
+          </div>
+          <div class="i">
+            <h2>Sign In</h2>
+            <p>Email adress<br> <input name = "email" type = “email  placeholder=“name@domain.com” size="50"></p>
+            <P>Password<br>  <input name = "email" type = "password"  size="50"  /></P>
+           <input name = "name"  type = "checkbox"> 
+
+            <P class="s"><a href="home.html">Sign In</a></P>
+            <br><br>
+            <P class="b"><a href="sign up.html">If you don’t have an account, create one now.</a></P>
+
+          </div>
+
+
+
+        </div>
+        
+        <footer>
+            <div class="grid">
+                <div ><a href="home.html"><img class="logo" src="logo.png"></a></div>
+                <div><a href="home.html"><h1 class="footer">MAstore.com</h1></a></div>
+               
+                <div class="fan">  <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a  href="sign.html">sign in</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Faq.html">Faq</a>
+                </div>
+                <div class="fan">
+                     <a  href="survey.html">survey</a>
+            <a href="testimonials.html">testimonials</a>
+            <a  href="about.html"> about us</a>
+            <a   href="contact us.html"> contact us</a>
+                   </div>
+                  
+                <div class="fo">
+                    <img   src="phone3.png" alt="phone">
+                    <img src="emaill.png" alt="email">
+                
+                </div>
+
+
+            </div>
+         </footer>
+     
+
+
+    </body>
+</html>
